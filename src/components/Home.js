@@ -1,10 +1,12 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import Header from "./Header";
 
 const Home = () => {
     return (
         <div className="Home">
             <div className="parallax">
+                <Header />
                 <StaticImage
                     className="layer p1"
                     src="../../assets/svg/1.svg"
