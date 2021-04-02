@@ -1,0 +1,15 @@
+<svg
+    width="30"
+    height="25"
+    data-depth="0.3"
+    data-depth-y="-1.30"
+    class="layer p9"
+    xmlns="http://www.w3.org/2000/svg"
+    style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"
+>
+    <path
+        d="M29.8564 16.0718c-2.85854 4.95114-8.1405 8.00057-13.85654 8.00024-5.71605-.00032-10.9981-3.04992-13.85641-8-2.8583-4.95007-2.8584-11.0491.00014-16.00024l2.77128 1.6c-2.28651 3.96036-2.28631 8.84002-.00011 12.8002 2.2862 3.96017 6.5124 6.40017 11.08513 6.4 4.57271-.00018 8.79872-2.43984 11.08524-6.4002l2.77128 1.6z"
+        fill="#6C6CE5"
+        fill-rule="evenodd"
+    ></path>
+</svg>
