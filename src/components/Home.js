@@ -64,7 +64,7 @@ const Home = () => {
                 <div className="infos">
                     <h1>Hasib Al Rashid</h1>
                     <h2>Programmer, Student, Cadet</h2>
-                    <h3>13 Years Old</h3>
+                    <h3>12 Years Old</h3>
                 </div>
             </div>
         </div>
