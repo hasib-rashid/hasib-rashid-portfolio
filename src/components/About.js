@@ -15,6 +15,9 @@ const About = () => {
                     Programming too. Have alot of ideas for projects but no time
                     at all. I open source through Github. Check it out and
                     follow me!
+                    <br />
+                    <br />
+                    <a href="https://github.com/hasib-rashid">Github</a>
                 </p>
             </main>
         </div>

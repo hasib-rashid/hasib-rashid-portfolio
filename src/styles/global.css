@@ -86,7 +86,11 @@
 }
 
 .About main a {
-    padding: 20px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    color: #f5f5f5;
+    text-decoration: none;
 }
 
 /** Parallex */
