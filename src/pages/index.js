@@ -11,11 +11,7 @@ const IndexPage = () => {
             <Header />
             <Home />
             <About />
-            <Skills
-                src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-                alt="React Logo"
-                paragraph="This is my paragraph"
-            />
+            <Skills />
         </main>
     );
 };
