@@ -11,6 +11,7 @@
 .Header {
     color: #f5f5f5;
     justify-content: space-between;
+    height: 72px;
 }
 
 .Header nav {
@@ -67,59 +68,81 @@
     width: 100vw;
 }
 
+.About main {
+    margin: 100px;
+    color: #f5f5f5;
+}
+
+.About main h2 {
+    font-size: 30px;
+}
+
+.About main p {
+    background-color: #27253d;
+    width: 90%;
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.About main a {
+    padding: 20px;
+}
+
 /** Parallex */
 .parallax {
-    position: absolute;
+    position: relative;
     left: 0;
     top: 0;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-color: #353353;
 }
+
 .parallax .layer {
-    position: absolute;
+    position: absolute !important;
 }
-.parallax .p1 {
+.p1 {
     left: 10%;
-    top: 10%;
+    top: 5%;
 }
-.parallax .p2 {
+.p2 {
     left: 25%;
     top: 30%;
 }
-.parallax .p3 {
-    left: 15%;
-    bottom: 30%;
+.p3 {
+    left: 20%;
+    bottom: 35%;
 }
-.parallax .p4 {
+.p4 {
     left: 10%;
-    bottom: 10%;
+    bottom: 15%;
 }
-.parallax .p5 {
+.p5 {
     left: 45%;
-    top: 10%;
+    top: 7%;
 }
-.parallax .p6 {
+.p6 {
     left: 40%;
-    bottom: 10%;
-}
-.parallax .p7 {
-    top: 20%;
-    right: 30%;
-}
-.parallax .p8 {
-    right: 30%;
     bottom: 20%;
 }
-.parallax .p9 {
+.p7 {
+    top: 17%;
+    right: 30%;
+}
+.p8 {
+    right: 30%;
+    bottom: 25%;
+}
+.p9 {
     right: 10%;
     top: 10%;
 }
-.parallax .p10 {
+.p10 {
     top: 45%;
-    right: 20%;
+    right: 23%;
 }
-.parallax .p11 {
-    bottom: 10%;
-    right: 10%;
+.p11 {
+    bottom: 15%;
+    right: 15%;
 }
