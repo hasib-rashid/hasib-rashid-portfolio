@@ -11,8 +11,8 @@ const Skills = () => {
                     <StaticImage
                         src="../../assets/icon/react.svg"
                         alt="React Icon"
-                        width="125px"
-                        height="125px"
+                        width="150px"
+                        height="150px"
                     />
 
                     <p>ReactJS</p>
@@ -22,7 +22,8 @@ const Skills = () => {
                     <StaticImage
                         src="../../assets/icon/gatsby.svg"
                         alt="React Icon"
-                        width="150px"
+                        width="155px"
+                        height="50px"
                     />
 
                     <p>Gatsby</p>
@@ -30,8 +31,10 @@ const Skills = () => {
 
                 <div className="skill">
                     <StaticImage
-                        src="https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png"
-                        alt="React Icon"
+                        src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png"
+                        alt="NextJS Icon"
+                        width="150px"
+                        height="125px"
                     />
 
                     <p>NextJS</p>
