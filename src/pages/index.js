@@ -4,6 +4,7 @@ import Home from "../components/Home.js";
 import Header from "../components/Header";
 import About from "../components/About";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 
 const IndexPage = () => {
     return (
@@ -12,6 +13,7 @@ const IndexPage = () => {
             <Home />
             <About />
             <Skills />
+            <Projects />
         </main>
     );
 };

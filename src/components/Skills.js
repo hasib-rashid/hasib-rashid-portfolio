@@ -84,6 +84,17 @@ const Skills = () => {
 
                     <p>NodeJS</p>
                 </div>
+
+                <div className="skill">
+                    <StaticImage
+                        src="https://pics.freeicons.io/uploads/icons/png/21299071571548141943-512.png"
+                        alt="GraphQL Icon"
+                        width="145px"
+                        height="75px"
+                    />
+
+                    <p>GraphQL</p>
+                </div>
             </div>
         </div>
     );
