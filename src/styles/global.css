@@ -103,6 +103,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-column-gap: 50px;
 }
 
 .skill {
