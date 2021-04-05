@@ -116,7 +116,8 @@
 }
 
 .skill_img {
-    background-color: #27253d !important;
+    height: 50px;
+    width: 50px;
 }
 
 .About main a:hover {

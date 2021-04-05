@@ -13,6 +13,7 @@ const Skills = () => {
                         alt="React Icon"
                         width="150px"
                         height="150px"
+                        className="skill_img"
                     />
 
                     <p>ReactJS</p>
@@ -23,6 +24,7 @@ const Skills = () => {
                         alt="React Icon"
                         width="155px"
                         height="50px"
+                        className="skill_img"
                     />
 
                     <p>Gatsby</p>
@@ -33,6 +35,7 @@ const Skills = () => {
                         alt="NextJS Icon"
                         width="155px"
                         height="125px"
+                        className="skill_img"
                     />
 
                     <p>NextJS</p>
@@ -43,6 +46,7 @@ const Skills = () => {
                         alt="Discord Icon"
                         width="155px"
                         height="125px"
+                        className="skill_img"
                     />
 
                     <p>DiscordJS</p>
@@ -53,6 +57,7 @@ const Skills = () => {
                         alt="MongoDB Icon"
                         width="155px"
                         height="125px"
+                        className="skill_img"
                     />
 
                     <p>MongoDB</p>
@@ -62,6 +67,7 @@ const Skills = () => {
                     <StaticImage
                         src="https://img.icons8.com/color/125/000000/firebase.png"
                         alt="Firebase Icon"
+                        className="skill_img"
                     />
 
                     <p>Firebase</p>
@@ -71,6 +77,7 @@ const Skills = () => {
                     <StaticImage
                         src="https://img.icons8.com/color/125/000000/css3.png"
                         alt="CSS Icon"
+                        className="skill_img"
                     />
 
                     <p>CSS</p>
@@ -80,6 +87,7 @@ const Skills = () => {
                     <StaticImage
                         src="https://img.icons8.com/color/125/000000/nodejs.png"
                         alt="NodeJS Icon"
+                        className="skill_img"
                     />
 
                     <p>NodeJS</p>
@@ -91,6 +99,7 @@ const Skills = () => {
                         alt="GraphQL Icon"
                         width="145px"
                         height="75px"
+                        className="skill_img"
                     />
 
                     <p>GraphQL</p>
