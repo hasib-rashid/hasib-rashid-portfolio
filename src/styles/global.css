@@ -120,6 +120,41 @@
     width: 50px;
 }
 
+.project_img {
+    width: 300px;
+}
+
+.project {
+    margin: 50px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #27253d;
+    border-radius: 30px;
+}
+
+.project_txt {
+    background-color: #27253d !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #f5f5f5;
+}
+
+.project_txt h2 {
+    background-color: #27253d;
+}
+
+.project_txt p {
+    background-color: #27253d;
+}
+
 .About main a:hover {
     background-color: crimson;
     color: #f5f5f5;
