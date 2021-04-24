@@ -125,18 +125,18 @@
 }
 
 .project_img {
-    width: 300px;
+    width: 200px;
 }
 
 .project {
     margin: 50px;
-    width: 600px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid #27253d;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .project_txt {
@@ -146,9 +146,10 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     color: #f5f5f5;
+    padding: 10px 20px;
 }
 
 .project_txt h2 {
