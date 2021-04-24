@@ -1,8 +1,219 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    background-color: #353353;
+}
+
+.Header {
+    color: #f5f5f5;
+    justify-content: space-between;
+    height: 72px;
+}
+
+.Header nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-around;
+    border-bottom: 1px solid #676580;
+}
+
+.Header nav ul {
+    display: flex;
+}
+
+.Header nav ul li {
+    display: flex;
+    margin-left: 35px;
+    margin-right: 40px;
+}
+
+.Header nav ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    position: relative;
+}
+
+.Header nav ul li a::before {
+    content: "";
+    height: 3px;
+    bottom: -17px;
+    background-color: whitesmoke;
+    width: 0%;
+    position: absolute;
+    right: 0%;
+    transition: all 0.5s ease;
+}
+
+.Header nav ul li a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    color: #f5f5f5;
+    font-size: 1.3rem;
+}
+
+.Header::after {
+    width: 100vw;
+}
+
+.About main {
+    margin: 100px;
+    color: #f5f5f5;
+}
+
+.About main h2 {
+    font-size: 30px;
+}
+
+.About main p {
+    background-color: #27253d;
+    width: 90%;
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.About main a {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 3px solid crimson;
+    color: #f0f0f0;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.Skills {
+    margin: 100px;
+    color: #f5f5f5;
+}
+
+.my_skills {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-column-gap: 50px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.skill_img {
+    height: 50px;
+    width: 50px;
+}
+
+.project_img {
+    width: 300px;
+}
+
+.project {
+    margin: 50px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #27253d;
+    border-radius: 30px;
+}
+
+.project_txt {
+    background-color: #27253d !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #f5f5f5;
+}
+
+.project_txt h2 {
+    background-color: #27253d;
+}
+
+.project_txt p {
+    background-color: #27253d;
+}
+
+.About main a:hover {
+    background-color: crimson;
+    color: #f5f5f5;
+}
+
+/** Parallex */
+.parallax {
+    position: relative !important;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #353353;
+}
+
+.parallax .layer {
+    position: absolute !important;
+}
+.p1 {
+    left: 10%;
+    top: 5%;
+}
+.p2 {
+    left: 25%;
+    top: 30%;
+}
+.p3 {
+    left: 20%;
+    bottom: 35%;
+}
+.p4 {
+    left: 10%;
+    bottom: 15%;
+}
+.p5 {
+    left: 45%;
+    top: 7%;
+}
+.p6 {
+    left: 40%;
+    bottom: 20%;
+}
+.p7 {
+    top: 17%;
+    right: 30%;
+}
+.p8 {
+    right: 30%;
+    bottom: 25%;
+}
+.p9 {
+    right: 10%;
+    top: 10%;
+}
+.p10 {
+    top: 45%;
+    right: 23%;
+}
+.p11 {
+    bottom: 15%;
+    right: 15%;
 }
