@@ -23,7 +23,7 @@ const Home = () => {
                 />
                 <StaticImage
                     className="layer p4"
-                    src="../../assets/svg/4.svg"
+                    src="../../../assets/svg/4.svg"
                     alt="Svg 4"
                 />
                 <StaticImage
