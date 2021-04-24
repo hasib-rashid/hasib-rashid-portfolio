@@ -8,17 +8,17 @@ const Home = () => {
             <div className="parallax">
                 <StaticImage
                     className="layer p1"
-                    src="../../assets/svg/1.svg"
+                    src="../../../assets/svg/1.svg"
                     alt="Svg 1"
                 />
                 <StaticImage
                     className="layer p2"
-                    src="../../assets/svg/2.svg"
+                    src="../../../assets/svg/2.svg"
                     alt="Svg 2"
                 />
                 <StaticImage
                     className="layer p3"
-                    src="../../assets/svg/3.svg"
+                    src="../../../assets/svg/3.svg"
                     alt="Svg 3"
                 />
                 <StaticImage
@@ -28,37 +28,37 @@ const Home = () => {
                 />
                 <StaticImage
                     className="layer p5"
-                    src="../../assets/svg/5.svg"
+                    src="../../../assets/svg/5.svg"
                     alt="Svg 5"
                 />
                 <StaticImage
                     className="layer p6"
-                    src="../../assets/svg/6.svg"
+                    src="../../../assets/svg/6.svg"
                     alt="Svg 6"
                 />
                 <StaticImage
                     className="layer p7"
-                    src="../../assets/svg/7.svg"
+                    src="../../../assets/svg/7.svg"
                     alt="Svg 7"
                 />
                 <StaticImage
                     className="layer p8"
-                    src="../../assets/svg/8.svg"
+                    src="../../../assets/svg/8.svg"
                     alt="Svg 8"
                 />
                 <StaticImage
                     className="layer p9"
-                    src="../../assets/svg/9.svg"
+                    src="../../../assets/svg/9.svg"
                     alt="Svg 9"
                 />
                 <StaticImage
                     className="layer p10"
-                    src="../../assets/svg/10.svg"
+                    src="../../../assets/svg/10.svg"
                     alt="Svg 10"
                 />
                 <StaticImage
                     className="layer p11"
-                    src="../../assets/svg/11.svg"
+                    src="../../../assets/svg/11.svg"
                     alt="Svg 11"
                 />
                 <div className="infos">

@@ -8,6 +8,10 @@
     background-color: #353353;
 }
 
+.Home {
+    overflow-x: hidden;
+}
+
 .Header {
     color: #f5f5f5;
     justify-content: space-between;
