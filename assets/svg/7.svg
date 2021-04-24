@@ -1,0 +1,16 @@
+<svg
+    width="26"
+    height="26"
+    data-depth="0.4"
+    class="layer p7"
+    xmlns="http://www.w3.org/2000/svg"
+    style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"
+>
+    <path
+        d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z"
+        stroke="#FFD15C"
+        stroke-width="3"
+        fill="none"
+        fill-rule="evenodd"
+    ></path>
+</svg>

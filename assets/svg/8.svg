@@ -1,0 +1,18 @@
+<svg
+    width="19"
+    height="21"
+    data-depth="0.3"
+    class="layer p8"
+    xmlns="http://www.w3.org/2000/svg"
+    style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"
+>
+    <rect
+        transform="rotate(-40 6.25252 10.12626)"
+        x="7"
+        width="3"
+        height="25"
+        rx="1.5"
+        fill="#6C6CE5"
+        fill-rule="evenodd"
+    ></rect>
+</svg>
