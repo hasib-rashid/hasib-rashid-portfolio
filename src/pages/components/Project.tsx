@@ -1,33 +1,26 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-type Props = {
-    img: string,
-    alt: string,
-    title: string,
-    description: string,
-}
-
-const ProjectCard = (props: Props) => {
+const Project = () => {
     return (
         <div className="Projects">
             <h1>My Projects</h1>
 
             <div className="project">
                 <StaticImage
-                    src={props.img}
-                    alt={props.alt}
+                    src="https://cdn.freelogovectors.net/wp-content/uploads/2018/12/react_logo.png"
+                    alt="An Image"
                     className="project_img"
                 />
 
                 <div className="project_txt">
-                    <h2>{props.title}</h2>
+                    <h2>Title</h2>
 
-                    <p>{props.description}</p>
+                    <p>A Description</p>
                 </div>
             </div>
         </div>
     );
 };
 
-export default ProjectCard;
+export default Project;

@@ -1,5 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import "../../styles/global.css"
 import Header from "./Header";
 
 const Home = () => {
