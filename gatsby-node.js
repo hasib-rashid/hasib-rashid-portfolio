@@ -9,10 +9,10 @@ exports.createPages = ({ graphql, actions }) => {
                 allContentfulBlogPost {
                     edges {
                         node {
-                        id
-                        title
-                        subtitle
-                        slug
+                            id
+                            title
+                            subtitle
+                            slug
                         }
                     }
                 }
@@ -23,11 +23,11 @@ exports.createPages = ({ graphql, actions }) => {
             console.log("Error retrieving contentful data", result.errors);
         }
         // Resolve the paths to our template
-        const blogPostTemplate = path.resolve("./src/templates/blogpost.js");
+        const blogPostTemplate = path.resolve("./src/templates/project.tsx");
         // Then for each result we create a page.
-        result.data.allContentfulBlogPost.edges.forEach(edge => {
+        result.data.allContentfulPost.edges.forEach(edge => {
             createPage({
-                path: `/blogpost/${edge.node.slug}/`,
+                path: `/project/${edge.node.slug}/`,
                 component: slash(blogPostTemplate),
                 context: {
                     slug: edge.node.slug,
