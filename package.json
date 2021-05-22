@@ -16,8 +16,11 @@
   },
   "dependencies": {
     "gatsby": "^3.4.1",
+    "gatsby-plugin-typescript": "^3.5.0",
+    "leaflet": "^1.7.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-leaflet": "^3.2.0"
   },
   "devDependencies": {
     "typescript": "^4.2.4"
